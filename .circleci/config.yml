@@ -9,7 +9,7 @@ jobs:
       - run: echo "hello world"
   test:
     docker:
-      - image: circleci/python2:jessie
+      - image: circleci/python:2-jessie
     steps:
       - checkout
       - run: echo "hello world"
