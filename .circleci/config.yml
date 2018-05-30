@@ -22,5 +22,4 @@ workflows:
       - test:
         requires:
         - build
-        - test
-  
+        
