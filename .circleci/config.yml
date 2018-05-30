@@ -11,7 +11,7 @@ jobs:
           command: |
             mkdir output
             echo "hello world" > output/message.txt
-       - persist_to_workspace:
+      - persist_to_workspace:
            root: output
            paths:
              - message.txt
